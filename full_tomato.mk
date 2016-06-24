@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2016 Nitrogen Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,6 +26,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from tomato device
 $(call inherit-product, device/yu/tomato/device.mk)
+$(call inherit-product, vendor/yu/tomato/tomato-vendor.mk)
+
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tomato
