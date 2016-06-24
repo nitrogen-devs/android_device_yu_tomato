@@ -1,7 +1,7 @@
 #
 # Copyright (C) 2015 The CyanogenMod Project
 # Copyright (C) 2015 The YUTeleventures
-# Copyright (C) 2015 Nitrogen Project
+# Copyright (C) 2016 Nitrogen Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -128,12 +128,6 @@ BOARD_USES_QCNE := true
 TARGET_LDPRELOAD := libNimsWrap.so
 endif
 BOARD_USES_QCOM_HARDWARE := true
-
-# Recovery
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_cm
-
-# Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := $(VENDOR_PATH)
 
 # RIL
 TARGET_RIL_VARIANT := caf
